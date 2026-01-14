@@ -1,0 +1,30 @@
+h1{
+    background-color: bisque;
+    position: relative;
+    left: 100px;
+    /* top bottom & right */
+}
+
+h2{
+
+}
+
+h3{
+    background-color: aquamarine;
+    position:fixed;
+    top:0px;
+}
+
+h4{
+    background-color: beige;
+    position: sticky;
+    top:0px;
+}
+
+p{
+    background-color: rgb(73, 233, 24);
+    position: absolute;
+    left:50px;
+    top:70px;
+    
+}

@@ -1,0 +1,23 @@
+h1{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    border: 10px solid orange;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+h2{
+    /* display: inline-block;
+    background-color: #000; */
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    border: 10px solid orange;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+span{
+    background-color: rgb(24, 245, 142);
+}

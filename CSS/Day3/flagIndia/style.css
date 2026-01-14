@@ -1,0 +1,35 @@
+#container{
+    height: 200px;
+    width: 300px;
+    background-color: orange;
+    position: relative;
+    border-radius: 10px;
+}
+
+#saffron{
+    height: 66px;
+}
+
+#green{
+    height: 134px;
+    background:green;
+    position: relative;
+    border-radius: 10px;
+}
+
+#white{
+    height: 66px;
+    background: white;
+
+}
+
+#circle{
+    height: 40px;
+    width: 40px;
+    background: rgb(184, 176, 176);
+    position:absolute;
+    left:130px;
+    top: 15px;
+    border-radius: 50%;
+}
+

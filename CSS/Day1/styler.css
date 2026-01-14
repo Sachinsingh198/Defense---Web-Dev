@@ -1,0 +1,59 @@
+/* tag selector */
+/* h1{
+    background-color: bisque;
+} */
+
+/* id based selection */
+/* #first{
+    background-color: blue;
+}
+
+#second{
+    background-color: pink;
+}
+
+#fitth{
+    background-color: blueviolet;
+}
+#h2{
+    background:aquamarine;
+} */
+
+/* class based selection */
+/* .third{
+    background-color: green;
+} */
+
+/* Group based selection */
+/* h1,.fourth{
+    background-color: aqua;
+} */
+
+/* h1{
+    background:rgb(24, 68, 107,0.5); /*  here 0.5 is the transparency */
+/* }
+
+/* h2{
+    background-color: hsl(110, 50%, 30%); 
+} */  
+
+h1{
+    background-color: #878787;/*First two digits red, second two gree, and last two blue*/
+    /*fonts*/
+    /*pixel=> Picture Element*/
+}
+
+ul{
+    font-size: 1em;
+}
+
+li{
+    font-size: 1em;
+}
+h2{
+    font-size: 2em;
+    font-size: 200%;/*{% of the total size of the parent or root}*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}

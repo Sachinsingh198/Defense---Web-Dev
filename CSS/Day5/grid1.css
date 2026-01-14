@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    
+    padding:10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet
+}
+
+.box{
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.first{
+    background-color: dimgrey;
+}
+
+.second{
+    background-color: #5f5959;
+}
+
+.third{
+    background-color: #5f5959;
+}
+
+.fourth{
+    background-color: dimgray;
+}

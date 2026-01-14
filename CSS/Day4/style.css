@@ -1,0 +1,40 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 400px;
+    /* flex-direction: row;by default row  others => column-reverse,row-reverse, rows & columns */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* other start, end, space-around, space between, space evenly*/
+    /* align-items: center; */
+    flex-wrap: wrap;
+    
+}
+
+.box{
+    height:100px;
+    width: 100px;
+    margin:5px;
+}
+
+.first{
+    background-color: orange;
+    /* flex-shrink: 4; */
+    /* flex-grow: 1; */
+    flex-basis: 300px;
+}
+
+.second{
+    background-color: green;
+    flex-grow: 2;
+}
+
+.third{
+    background-color: red;
+    flex-grow: 1;
+}
+
+.fourth{
+    background-color: blue;
+    flex-grow: 1;
+}
